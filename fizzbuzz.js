@@ -1,5 +1,5 @@
 const fizzbuzz = (a) => {
-    return;
+    return a.toString();
 };
 
 module.exports = fizzbuzz;
