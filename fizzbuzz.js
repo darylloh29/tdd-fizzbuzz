@@ -1,8 +1,5 @@
 const fizzbuzz = (a) => {
-    if (typeof a != "number") {
-        return "Invalid input";
-    }
-    if (a < 0) {
+    if (typeof a != "number" || a < 0) {
         return "Invalid input";
     }
     if (a % 3 == 0 && a % 5 == 0) {
