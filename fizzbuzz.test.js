@@ -7,4 +7,7 @@ describe("fizzbuzz", () => {
     test("input of 3 returns Fizz", () => {
         expect(fizzbuzz(3)).toBe("Fizz");
     });
+    test("input of 5 returns Buzz", () => {
+        expect(fizzbuzz(5)).toBe("Buzz");
+    });
 });
