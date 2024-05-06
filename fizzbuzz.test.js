@@ -19,5 +19,8 @@ describe("fizzbuzz", () => {
         test("input of -1 returns Invalid input", () => {
             expect(fizzbuzz(-1)).toBe("Invalid input");
         });
+        test("input of Hello returns Invalid input", () => {
+            expect(fizzbuzz("Hello")).toBe("Invalid input");
+        });
     });
 });
