@@ -1,4 +1,7 @@
 const fizzbuzz = (a) => {
+    if (typeof a != "number") {
+        return "Invalid input";
+    }
     if (a < 0) {
         return "Invalid input";
     }
